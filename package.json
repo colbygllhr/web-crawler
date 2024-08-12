@@ -1,0 +1,31 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "A CLI tool that indexes websites all across the internet.",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "jest": {
+    "transform": {}
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colbygllhr/web-crawler.git"
+  },
+  "author": "colby gallaher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/colbygllhr/web-crawler/issues"
+  },
+  "homepage": "https://github.com/colbygllhr/web-crawler#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.1",
+    "json": "^11.0.0"
+  }
+}
